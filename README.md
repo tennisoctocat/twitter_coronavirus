@@ -6,7 +6,7 @@ This project uses the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) progr
 
 Using this process, we create graphs showing the top 10 countries and languages with `#coronavirus` and `#코로나바이러스`. Here are the results:
 
-![country-coronavirus](https://github.com/tennisoctocat/twitter_coronavirus/tree/master/graphs)
+![country-coronavirus](graphs/reduced.country#coronavirus.png)
 
 <img src=graphs/reduced.country#coronavirus.png width=100%/>
 <img src=graphs/reduced.lang#coronavirus.png width=100%/>
