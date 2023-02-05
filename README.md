@@ -6,12 +6,10 @@ This project uses the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) progr
 
 Using this process, we create graphs showing the top 10 countries and languages with `#coronavirus` and `#코로나바이러스`. Here are the results:
 
-![country-coronavirus](graphs/reduced.country#coronavirus.png)
-
 <img src=./graphs/reduced.country%23coronavirus.png width=100%/>
 <img src=./graphs/reduced.lang%23coronavirus.png width=100%/>
-<img src=./graphs/reduced.country#코로나바이러스.png width=100%/>
-<img src=./graphs/reduced.lang#코로나바이러스.png width=100%/>
+<img src=./graphs/reduced.country%23코로나바이러스.png width=100%/>
+<img src=./graphs/reduced.lang%23코로나바이러스.png width=100%/>
 
 ## Running the Code
 
