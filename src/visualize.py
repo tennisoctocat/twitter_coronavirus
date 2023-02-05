@@ -54,4 +54,4 @@ if args.key != "#coronavirus":
     lang = "Korean"
 plt.title("Number of tweets with " + args.key + " by " + xLabel, fontproperties=fp) 
 plt.xticks(x_arr, [k for k, v in top_10_items], fontproperties=fp)
-plt.savefig("./graphs/" + args.input_path + args.key + ".png")
+plt.savefig("./graphs/" + args.input_path + args.key + ".png", bbox_inches="tight")
