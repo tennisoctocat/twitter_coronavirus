@@ -8,8 +8,8 @@ Using this process, we create graphs showing the top 10 countries and languages 
 
 ![country-coronavirus](graphs/reduced.country#coronavirus.png)
 
-<img src=./graphs/reduced.country#coronavirus.png width=100%/>
-<img src=./graphs/reduced.lang#coronavirus.png width=100%/>
+<img src=./graphs/reduced.country%23coronavirus.png width=100%/>
+<img src=./graphs/reduced.lang%23coronavirus.png width=100%/>
 <img src=./graphs/reduced.country#코로나바이러스.png width=100%/>
 <img src=./graphs/reduced.lang#코로나바이러스.png width=100%/>
 
