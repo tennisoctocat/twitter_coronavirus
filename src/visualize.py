@@ -17,6 +17,7 @@ import matplotlib.font_manager
 
 # Use this so that we can create graphs without printing them somewhere immediately
 matplotlib.use('Agg')
+# Use this font so we can display korean text. Used this stack overflow post: https://stackoverflow.com/questions/7726852/how-to-use-a-random-otf-or-ttf-font-in-matplotlib
 path = '/home/chom/.fonts/NotoSerifKR-Regular.otf'
 fp = matplotlib.font_manager.FontProperties(fname=path)
 
