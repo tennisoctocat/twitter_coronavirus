@@ -17,7 +17,12 @@ import matplotlib
 # Use this so that we can create graphs without printing them somewhere immediately
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-matplotlib.rcParams['font.family'] = ['Source Han Sans TW', 'sans-serif', 'Noto Mono']
+# matplotlib.rcParams['font.family'] = ['Source Han Sans TW', 'sans-serif', 'Noto Mono']
+# /usr/share/fonts/truetype/noto/NotoMono-Regular.ttf
+#matplotlib.font_manager.fontManager.addfont('/home/chom/.fonts/NotoSerifKR-Regular.otf')
+fonts = matplotlib.font_manager.findSystemFonts(fontpaths='/home/chom/.fonts', fontext='otf')
+print(fonts)
+
 
 # open the input path
 with open(args.input_path) as f:
@@ -48,6 +53,6 @@ plt.ylabel("Number of Tweets")
 lang = "English"
 if args.key != "#coronavirus":
     lang = "Korean"
-plt.title("Number of tweets with " + args.key + " by " + xLabel) 
+plt.title("Number of tweets with " + args.key + " by " + xLabel, fontname='Noto Serif KR') 
 plt.xticks(x_arr, [k for k, v in top_10_items])
 plt.savefig("./graphs/" + args.input_path + args.key + ".png")
