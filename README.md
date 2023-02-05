@@ -1,10 +1,12 @@
 # Coronavirus twitter analysis
 
-This project uses the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) programming model to process all geotagged tweets sent in 2020. In particular, the project determines the number of tweets of each language and country that contain the hashtags `#coronavirus` and `#코로나바이러스`. This is part ofa [Big Data (CSCI 143) homework assignment](https://github.com/mikeizbicki/cmc-csci143/tree/2023spring/topic_01_mapreduce/homework).
+This project uses the [MapReduce](https://en.wikipedia.org/wiki/MapReduce) programming model to process all geotagged tweets sent in 2020. In particular, the project determines the number of tweets of each language and country that contain the hashtags `#coronavirus` and `#코로나바이러스`. This is part of a [Big Data (CSCI 143) homework assignment](https://github.com/mikeizbicki/cmc-csci143/tree/2023spring/topic_01_mapreduce/homework).
 
 ## Results
 
 Using this process, we create graphs showing the top 10 countries and languages with `#coronavirus` and `#코로나바이러스`. Here are the results:
+
+![country-coronavirus](https://github.com/tennisoctocat/twitter_coronavirus/tree/master/graphs)
 
 <img src=graphs/reduced.country#coronavirus.png width=100%/>
 <img src=graphs/reduced.lang#coronavirus.png width=100%/>
